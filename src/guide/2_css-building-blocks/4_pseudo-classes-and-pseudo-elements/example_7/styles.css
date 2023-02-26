@@ -1,0 +1,3 @@
+.box::after {
+    content: " ➥"
+}

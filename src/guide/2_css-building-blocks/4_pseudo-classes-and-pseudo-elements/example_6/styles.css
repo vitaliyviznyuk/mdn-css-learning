@@ -1,0 +1,3 @@
+.box::before {
+    content: "This should show before the other content."
+}

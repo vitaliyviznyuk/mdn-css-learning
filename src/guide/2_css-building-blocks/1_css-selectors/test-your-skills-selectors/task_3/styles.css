@@ -1,0 +1,41 @@
+a:link {
+    color: orange;
+}
+
+a:visited {
+    color: green;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.container > p:first-child {
+    font-size: 150%;
+}
+
+.container::first-line {
+    color: red;
+}
+
+table {
+    border-collapse: collapse;
+    width: 300px;
+}
+
+td, th {
+    padding: 0.2em;
+    text-align: left;
+}
+
+th {
+    display: table-cell;
+    vertical-align: inherit;
+    font-weight: bold;
+}
+
+tr:nth-child(2n) {
+    margin: 0;
+    color: white;
+    background-color: #333;
+}
