@@ -1,0 +1,10 @@
+#outer div ul .nav a {
+    background-color: unset;
+    padding: 5px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+div div li a {
+    color: rebeccapurple;
+}

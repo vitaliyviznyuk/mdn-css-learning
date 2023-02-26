@@ -1,0 +1,8 @@
+blockquote {
+    background-color: red;
+    border: 2px solid green;
+}
+
+.fix-this {
+    all: unset;
+}
