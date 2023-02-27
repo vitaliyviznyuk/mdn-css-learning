@@ -1,0 +1,37 @@
+/* file: layers1.css */
+
+/* unlayered styles */
+body {
+    color: #333;
+}
+
+/* creates the first layer: `layout` */
+@layer layout {
+    main {
+        display: grid;
+    }
+}
+
+/* creates the second layer: an unnamed, anonymous layer */
+@layer {
+    body {
+        margin: 0;
+    }
+}
+
+/* creates the third and fourth layers: `theme` and `utilities` */
+@layer theme, layout, utilities;
+
+/* adds styles to the already existing `layout` layer */
+@layer layout {
+    main {
+        color: #000;
+    }
+}
+
+/* creates the fifth layer: an unnamed, anonymous layer */
+@layer {
+    body {
+        margin: 1vw;
+    }
+}

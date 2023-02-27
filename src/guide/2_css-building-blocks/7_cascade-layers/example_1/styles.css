@@ -1,0 +1,4 @@
+:where(a.author) {
+    text-decoration: overline;
+    color: red;
+}

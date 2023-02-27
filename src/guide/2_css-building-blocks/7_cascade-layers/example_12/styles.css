@@ -1,0 +1,21 @@
+@import url("components-lib.css") layer(components);
+@import url("narrowtheme.css") layer(components.narrow);
+
+@layer components {
+    :root {
+        --theme: red;
+        font-family: serif !important;
+    }
+}
+@layer components.narrow {
+    :root {
+        --theme: blue;
+        font-family: sans-serif !important;
+    }
+}
+@layer components.wide {
+    :root {
+        --theme: purple;
+        font-family: cursive !important;
+    }
+}

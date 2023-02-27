@@ -1,0 +1,4 @@
+@import url("ruby-narrow.css") layer(international) supports(display: ruby) and
+(width < 32rem);
+@import url("ruby-wide.css") layer(international) supports(display: ruby) and
+(width >= 32rem);

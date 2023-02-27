@@ -1,0 +1,7 @@
+@import url(layers1.css) layer(example);
+
+@layer example.layout {
+    main {
+        width: 50vw;
+    }
+}
