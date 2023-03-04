@@ -1,0 +1,14 @@
+.box {
+    border: 5px solid rebeccapurple;
+    background-color: lightgray;
+    padding: 40px;
+    margin: 40px;
+    width: 300px;
+    height: 150px;
+}
+
+.alternate {
+    box-sizing: border-box;
+    inline-size: 390px;
+    block-size: 240px;
+}

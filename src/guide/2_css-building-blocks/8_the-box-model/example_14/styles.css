@@ -1,0 +1,24 @@
+li {
+    margin: 5px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border: 1px solid #000;
+}
+
+.links-list a {
+    display: inline-block;
+    background-color: rgb(179,57,81);
+    color: #fff;
+    text-decoration: none;
+    padding: 1em 2em;
+}
+
+.links-list a:hover {
+    background-color: rgb(66, 28, 40);
+    color: #fff;
+}

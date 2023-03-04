@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+}
+
+.box {
+    width: 200px;
+    height: 100px;
+    padding: 0.5em;
+    border: 1px solid #ccc;
+    margin: 20px;
+}
+
+.box {
+    background-image: url(star.png);
+    background-repeat: no-repeat;
+    /*background-position: 120px 1em;*/
+    /*background-position: top center;*/
+    /*background-position: 20px 10%;*/
+    /*background-position: 20px top;*/
+    background-position: top 20px right 10px;
+}
