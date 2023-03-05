@@ -1,0 +1,30 @@
+body {
+    background-color: #fff;
+    color: #333;
+    font: 1.2em / 1.5 Helvetica Neue, Helvetica, Arial, sans-serif;
+    padding: 1em;
+    margin: 0;
+}
+
+.vertical {
+    writing-mode: vertical-rl;
+    inline-size: 150px;
+    block-size: 150px;
+    border-block-start: 5px solid rebeccapurple;
+    border-inline-end: 5px solid grey;
+    border-block-end: 5px dotted red;
+    border-inline-start: 5px dotted blue;
+    padding-block-start: 40px;
+    margin-block-end: 30px;
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    border-top: 5px solid rebeccapurple;
+    border-right: 5px solid grey;
+    border-bottom: 5px dotted red;
+    border-left: 5px dotted blue;
+    padding-top: 40px;
+    margin-bottom: 30px;
+}
