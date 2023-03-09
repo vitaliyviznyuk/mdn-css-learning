@@ -1,0 +1,9 @@
+* {
+    box-sizing: border-box;
+}
+.box {
+    border: 5px solid darkblue;
+    width: 20vw;
+    height: 20vh;
+    font-size: 10vh;
+}

@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff;
+    color: #333;
+    font: 1.2em / 1.5 Helvetica Neue, Helvetica, Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.wrapper > * {
+    margin: 20px;
+}
+
+.wrapper {
+    display: flex;
+    align-items: flex-start;
+}
+
+.box, .minibox {
+    border: 5px solid darkblue;
+}
+
+.box {
+    width: 200px;
+}
+
+.minibox {
+    width: 50px;
+}
+
+.width {
+    width: 100%;
+}
+
+.max {
+    max-width: 100%;
+}

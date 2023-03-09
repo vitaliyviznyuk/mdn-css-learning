@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff;
+    color: #333;
+    font: 1.2em / 1.5 Helvetica Neue, Helvetica, Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.wrapper {
+    display: flex;
+}
+
+.wrapper > * {
+    margin: 20px;
+}
+
+.box {
+    border: 5px solid darkblue;
+    height: 150px;
+    width: 200px;
+}
