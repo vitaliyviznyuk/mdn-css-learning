@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+
+.wrapper {
+    background-image: url(ballons.png);
+    padding: 40px 20px;
+}
+
+.box {
+    padding: 10px;
+    margin: 1em 0;
+    border-radius: 0.5em;
+}
+
+.one {
+    background-color: rgba(2, 121, 139, .3);
+}
+
+.two {
+    background-color: rgba(197, 93, 161, .7);
+}
+
+.three {
+    background-color: rgba(18, 138, 125, .9);
+}

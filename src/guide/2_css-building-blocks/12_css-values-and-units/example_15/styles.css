@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+}
+
+.box {
+    margin: 20px auto;
+    border-radius: 0.5em;
+    border: 5px solid rebeccapurple;
+}
+
+.box {
+    height: 300px;
+    width: 400px;
+    background-image: url(star.png);
+    background-repeat: no-repeat;
+    background-position: right 40px;
+}

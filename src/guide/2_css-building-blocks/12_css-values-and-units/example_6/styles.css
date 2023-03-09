@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff;
+    color: #333;
+    font: 1.2em / 1.5 Helvetica Neue, Helvetica, Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.wrapper {
+    background-image: url(ballons.png);
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    padding: 20px;
+}
+
+.box {
+    margin: 40px auto;
+    width: 200px;
+    background-color: lightblue;
+    border: 5px solid darkblue;
+    padding: 10px;
+    opacity: 0.6;
+}
+
+.box {
+    opacity: 0.6;
+}
