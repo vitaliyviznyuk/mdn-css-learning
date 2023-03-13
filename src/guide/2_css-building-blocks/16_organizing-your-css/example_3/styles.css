@@ -1,0 +1,4 @@
+.box {
+    background-color: red; /* fallback for older browsers that don't support gradients */
+    background-image: linear-gradient(to right, #ff0000, #aa0000);
+}

@@ -1,0 +1,16 @@
+.media {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+.media .content {
+    font-size: 0.8rem;
+}
+
+.comment img {
+    border: 1px solid grey;
+}
+
+.list-item {
+    border-bottom: 1px solid grey;
+}
