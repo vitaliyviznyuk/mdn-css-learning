@@ -1,0 +1,32 @@
+/* General setup */
+
+html {
+    font-size: 10px;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body {
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Typography */
+
+h1 {
+    font-size: 3.2rem;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+h2 {
+    font-size: 2.4rem;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+p {
+    font-size: 1.4rem;
+    font-family: 'Ubuntu', sans-serif;
+    line-height: 1.6;
+    word-spacing: 0.6rem;
+}

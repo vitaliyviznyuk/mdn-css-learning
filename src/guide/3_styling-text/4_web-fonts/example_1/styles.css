@@ -1,0 +1,49 @@
+@font-face {
+    font-family: 'ciclefina';
+    url('fonts/cicle_fina-webfont.woff2') format('woff2'),
+    url('fonts/cicle_fina-webfont.woff') format('woff'),
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'zantrokeregular';
+    url('fonts/zantroke-webfont.woff2') format('woff2'),
+    url('fonts/zantroke-webfont.woff') format('woff'),
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* General setup */
+
+html {
+    font-size: 10px;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body {
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Typography */
+
+h1 {
+    font-size: 3.2rem;
+    font-family: "zantrokeregular", serif;
+}
+
+h2 {
+    font-size: 2.4rem;
+    font-family: "zantrokeregular", serif;
+}
+
+p {
+    font-size: 1.4rem;
+    font-family: "ciclefina", serif;
+    line-height: 1.6;
+    word-spacing: 0.6rem;
+}
