@@ -1,0 +1,13 @@
+* {
+    box-sizing: border-box;
+}
+
+.wrapper {
+    display: flex;
+}
+
+.wrapper > div {
+    border-radius: 5px;
+    background-color: rgb(207, 232, 220);
+    padding: 1em;
+}

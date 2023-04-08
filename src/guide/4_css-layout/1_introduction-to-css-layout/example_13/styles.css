@@ -1,0 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    column-width: 200px;
+}
