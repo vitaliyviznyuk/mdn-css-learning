@@ -1,0 +1,31 @@
+body {
+    width: 500px;
+    height: 1400px;
+    margin: 0 auto;
+}
+
+p {
+    background: aqua;
+    border: 3px solid blue;
+    padding: 10px;
+    margin: 10px;
+}
+
+span {
+    background: red;
+    border: 1px solid black;
+}
+
+h1 {
+    position: fixed;
+    top: 0;
+    width: 500px;
+    margin-top: 0;
+    background: white;
+    padding: 10px;
+}
+
+p:nth-of-type(1) {
+    margin-top: 60px;
+}
+

@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff;
+    color: #333;
+    font: 1.2em / 1.5 Helvetica Neue, Helvetica, Arial, sans-serif;
+    padding: 1em;
+    margin: 0;
+}
+
+.container {
+    width: 550px;
+    height: 400px;
+    padding: .5em;
+    border: 5px solid #ccc;
+    overflow: auto;
+}
+
+.sidebar {
+    background-color: rgb(207,232,220);
+    padding: 1em;
+    float: left;
+    width: 150px;
+    position: fixed;
+}
+
+.content {
+    padding: 1em;
+    margin-left: 160px;
+}
