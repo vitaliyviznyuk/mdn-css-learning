@@ -1,0 +1,9 @@
+html {
+    font-size: 1em;
+}
+
+@media screen and (min-width: 600px) and (orientation: landscape) {
+    body {
+        color: blue;
+    }
+}

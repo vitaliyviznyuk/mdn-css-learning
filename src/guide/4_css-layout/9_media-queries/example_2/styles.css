@@ -1,0 +1,9 @@
+html {
+    font-size: 1em;
+}
+
+@media screen and (width: 600px) {
+    body {
+        color: red;
+    }
+}
